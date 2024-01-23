@@ -1,2 +1,1 @@
-# APPDEV-CTAPDEVL
-Applications Development and Emerging Technologies
+# APPLICATIONS DEVELOPMENT AND EMERGING TECHNOLOGIES (CTAPDEVL)
