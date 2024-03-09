@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".page7">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- ImageView as the background -->
+            <com.github.chrisbanes.photoview.PhotoView
+                android:id="@+id/page7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/chapt196" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_burger"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/transparent"
+        android:onClick="showPopup"
+        android:scaleType="fitCenter"
+        android:layout_marginEnd="15dp"
+        android:layout_alignParentEnd="true"
+        android:alpha="0.80"/>
+
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:visibility="invisible">
+
+        <RelativeLayout
+            android:layout_width="145dp"
+            android:layout_height="40dp">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_prev"
+                android:background="@android:color/transparent"
+                android:onClick="goToPage6"
+                android:scaleType="fitCenter"
+                android:layout_marginEnd="10dp" />
+
+            <TextView
+                android:layout_width="135dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/wildwords"
+                android:gravity="center"
+                android:text="previous"
+                android:textColor="#000000" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="155dp"
+            android:layout_height="40dp">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_next"
+                android:background="@android:color/transparent"
+                android:onClick="goToPage8"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:layout_width="155dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/wildwords"
+                android:gravity="center"
+                android:text="Next Chapter"
+                android:textColor="#000000" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

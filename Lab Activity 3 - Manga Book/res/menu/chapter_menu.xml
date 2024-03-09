@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/item1"
+        android:title="FRONT PAGE" />
+
+    <item android:id="@+id/item2"
+        android:title="CHAPTER 290" />
+
+    <item android:id="@+id/item3"
+        android:title="CHAPTER 291"/>
+
+    <item android:id="@+id/item4"
+        android:title="CHAPTER 292"/>
+
+    <item android:id="@+id/item5"
+        android:title="CHAPTER 293"/>
+
+    <item android:id="@+id/item6"
+        android:title="CHAPTER 294"/>
+
+    <item android:id="@+id/item7"
+        android:title="CHAPTER 295"/>
+
+    <item android:id="@+id/item8"
+        android:title="CHAPTER 296"/>
+
+    <item android:id="@+id/item9"
+        android:title="CHAPTER 297"/>
+
+    <item android:id="@+id/item10"
+        android:title="CHAPTER 298"/>
+
+</menu>
