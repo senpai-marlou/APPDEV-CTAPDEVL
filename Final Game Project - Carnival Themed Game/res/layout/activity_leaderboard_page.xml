@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a_highlights"
+    android:id="@+id/leaderboardPage"
+    tools:context=".LeaderboardPage">
+
+    <ImageView
+        android:id="@+id/leaderBoardTitle"
+        android:layout_width="335dp"
+        android:layout_height="105dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="77dp"
+        android:src="@drawable/a_leaderboard" />
+
+
+    <ImageView
+        android:id="@+id/top1"
+        android:layout_width="286dp"
+        android:layout_height="89dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="187dp"
+        android:src="@drawable/a_top1" />
+
+    <ImageView
+        android:id="@+id/top2"
+        android:layout_width="286dp"
+        android:layout_height="89dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="280dp"
+        android:src="@drawable/a_top2" />
+
+    <ImageView
+        android:id="@+id/top3"
+        android:layout_width="286dp"
+        android:layout_height="89dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="372dp"
+        android:src="@drawable/a_top3" />
+
+    <ImageView
+        android:id="@+id/top4"
+        android:layout_width="286dp"
+        android:layout_height="89dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="464dp"
+        android:src="@drawable/a_top4" />
+
+    <ImageView
+        android:id="@+id/top5"
+        android:layout_width="286dp"
+        android:layout_height="89dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="557dp"
+        android:src="@drawable/a_top4" />
+
+    <ImageView
+        android:id="@+id/back2"
+        android:layout_width="189dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="654dp"
+        android:clickable="true"
+        android:src="@drawable/a_back2_on" />
+
+    <TextView
+        android:id="@+id/top1Name"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="207dp"
+        android:fontFamily="@font/lg_regular"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/top1Score"
+        android:layout_width="58dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="235dp"
+        android:fontFamily="@font/lg_regular"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/top2Name"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="298dp"
+        android:fontFamily="@font/lg_regular"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/top2Score"
+        android:layout_width="58dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="328dp"
+        android:fontFamily="@font/lg_regular"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/top3Name"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="390dp"
+        android:fontFamily="@font/lg_regular"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/top3Score"
+        android:layout_width="58dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="419dp"
+        android:fontFamily="@font/lg_regular"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/top4Name"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="482dp"
+        android:fontFamily="@font/lg_regular"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/top4Score"
+        android:layout_width="58dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="511dp"
+        android:fontFamily="@font/lg_regular"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/top5Name"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="574dp"
+        android:fontFamily="@font/lg_regular"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/top5Score"
+        android:layout_width="58dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="602dp"
+        android:fontFamily="@font/lg_regular"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+</RelativeLayout>
