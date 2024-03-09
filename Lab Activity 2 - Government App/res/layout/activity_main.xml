@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    android:orientation="vertical"
+    android:weightSum="5"
+    tools:context=".MainActivity"
+    tools:ignore="HardcodedText">
+
+    <!-- Menu | SSS title & logo -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.02"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="19dp"
+            android:src="@drawable/menu" />
+
+        <ImageView
+            android:layout_width="155dp"
+            android:layout_height="116dp"
+            android:layout_marginLeft="118dp"
+            android:layout_marginTop="73dp"
+            android:src="@drawable/main_logo" />
+
+        <TextView
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="14dp"
+            android:fontFamily="@font/generalsans"
+            android:gravity="center"
+            android:text="SOCIAL SECURITY SYSTEM"
+            android:textColor="#FFFFFF"
+            android:textSize="23dp" />
+
+    </LinearLayout>
+
+    <!-- User ID | Password -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.02"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/ID"
+            android:layout_width="345dp"
+            android:layout_height="66dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/custom_textfield"
+            android:fontFamily="@font/poppins"
+            android:hint="USER ID"
+            android:paddingTop="1dp"
+            android:paddingLeft="22dp"
+            android:paddingRight="15dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:textSize="17dp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="345dp"
+            android:layout_height="66dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="19dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/custom_textfield"
+            android:fontFamily="@font/poppins"
+            android:hint="PASSWORD"
+            android:paddingTop="1dp"
+            android:paddingLeft="22dp"
+            android:paddingRight="15dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:inputType="textPassword"
+            android:textSize="17dp"
+            android:longClickable="false"
+            android:drawableEnd="@drawable/ic_hide" />
+
+    </LinearLayout>
+
+    <!-- Employer Login | Forgot Password -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.30"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/customCheckBox"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginStart="25dp"
+            android:background="@drawable/custom_checkbox"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onCheckboxClicked" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="11dp"
+            android:fontFamily="@font/poppins"
+            android:text="Employer Login"
+            android:textColor="#FFFFFF"
+            android:textSize="15.3dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="11dp"
+            android:fontFamily="@font/poppins"
+            android:text="Forgot Password?"
+            android:textColor="#FFFFFF"
+            android:textSize="15.3dp" />
+
+    </LinearLayout>
+
+    <!-- Sign in -->
+    <LinearLayout
+        android:id="@+id/signIn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.66"
+        android:orientation="horizontal"
+        android:gravity="top|center_horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="74dp">
+
+            <ImageView
+                android:layout_width="938px"
+                android:layout_height="165px"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="14dp"
+                android:src="@drawable/signin" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/poppins"
+                android:text="Sign in"
+                android:textColor="#FFFFFF"
+                android:textSize="18.6sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
